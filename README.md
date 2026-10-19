@@ -1,34 +1,9 @@
-# 🚀 Bi Cycle Store (Frontend)
+# 🚀 Bi-Cycle Store Project (Front-end)
 
 ---
 
-A scalable and production-ready frontend starter template built with React, TypeScript, and modern tooling. This boilerplate is designed to help developers quickly kickstart building responsive and maintainable user interfaces with a well-structured and modular architecture.
+A production-grade, highly scalable frontend foundation for e-commerce bicycle platforms, built with React, TypeScript, and Ant Design. Designed to eliminate initial setup friction, enforce strict type safety out of the box, and provide a modular architecture capable of handling complex inventory, cart states, and user authentication workflows.
 
----
-
-## 🔗 Links
-
-- **GitHub Repository:** [Project Name](#)
-- **Live Link:** [Live on Vercel](#)
-- **Live Demo:** [Loom Video](#)
-
-
----
-
-## 🛠️ Features
-
-Here’s your rewritten version tailored for a React frontend project:
-
----
-
-- Modular architecture for scalability
-- Type-safe development with TypeScript
-- Centralized state management using Redux Toolkit
-- Environment-based configuration (Vite `.env`)
-- Clean and maintainable folder structure
-- Client-side routing with React Router
-- Reusable UI components with Ant Design
-- Form handling with React Hook Form
 ---
 
 ## 📦 Tech Stack
@@ -149,6 +124,23 @@ npm run lint       # Run ESLint
 
 ---
 
+## 🛠️ Features
+
+Here’s your rewritten version tailored for a React frontend project:
+
+---
+
+- Modular architecture for scalability
+- Type-safe development with TypeScript
+- Centralized state management using Redux Toolkit
+- Environment-based configuration (Vite `.env`)
+- Clean and maintainable folder structure
+- Client-side routing with React Router
+- Reusable UI components with Ant Design
+- Form handling with React Hook Form
+
+---
+
 ## 🖼️ Screenshots
 
 ### Home Page
@@ -184,4 +176,4 @@ This project is licensed under the MIT License.
 ## ✨ Author
 
 Nadim Mahmud Nion <br />
-Full Stack (MERN) Developer
+Full Stack (MERN/PERN) Developer
