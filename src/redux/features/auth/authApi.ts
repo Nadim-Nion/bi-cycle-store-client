@@ -1,13 +1,32 @@
-// const authApi = baseApi.injectEndpoints({
-//   endpoints: (builder) => ({
-//     login: builder.mutation({
-//       query: (userInfo) => ({
-//         url: "/auth/login",
-//         method: "POST",
-//         body: userInfo,
-//       }),
-//     }),
-//   }),
-// });
+import { baseApi } from "../../api/baseApi";
 
-// export const { useLoginMutation } = authApi;
+const authApi = baseApi.injectEndpoints({
+  endpoints: (builder) => ({
+    login: builder.mutation({
+      query: (userInfo) => ({
+        url: "/users/login",
+        method: "POST",
+        body: userInfo,
+      }),
+    }),
+    register: builder.mutation({
+      query: (userInfo) => ({
+        url: "/users/register",
+        method: "POST",
+        body: userInfo,
+      }),
+    }),
+    refreshToken: builder.mutation({
+      query: () => ({
+        url: "/users/refresh-token",
+        method: "POST",
+      }),
+    }),
+  }),
+});
+
+export const {
+  useLoginMutation,
+  useRegisterMutation,
+  useRefreshTokenMutation,
+} = authApi;

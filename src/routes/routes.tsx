@@ -11,7 +11,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         // index: true,
-        element: <h2>React Project Setup</h2>,
+        element: <h2>Bi-cycle Warehouse</h2>,
       },
     ],
   },
